@@ -2,7 +2,7 @@ import logo from "../assets/logo.webp";
 
 const Footer = () => {
   return (
-    <footer className="text-white w-full  h-[100]  bg-[#161517] p-4 flex justify-between ">
+    <footer className="text-white w-ful  h-[200px]  bg-[#161517] p-4 flex justify-between ">
       <img src={logo} alt="footer logo" className="w-[60px] h-[80px]" />
       <div className="">
         <img
