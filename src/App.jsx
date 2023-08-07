@@ -6,6 +6,9 @@ import Register from "./Components/Register";
 import Login from "./Components/Login";
 import { Routes, Route } from "react-router-dom";
 
+export const config = {
+  endpoint:`http://127.0.0.1:8082`
+}
 const App = () => {
   return (
     <div className="w-full h-screen bg-[#030303] ">
@@ -14,7 +17,7 @@ const App = () => {
         <Route path="/signup" element={<Register />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-      <Footer />
+      
     </div>
   );
 };
